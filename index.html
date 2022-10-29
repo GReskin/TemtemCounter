@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temtem Counter - GReskin</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/Pansuns.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="./styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="./styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <header>
+        <h1 class="title">Temtem Counter</h1>
+    </header>
+
+    <div class="container">
+        <div class="counters">
+            <div class="freetem">
+                <img class="circleImg" src="./img/Pansuns.png" alt="Pansun Img" class="freetem__image">
+                <h2>Freetem</h2>
+                <p id="freetemCounter">0</p>
+                <div class="freetem__buttons">
+                        <button onClick="freetemMinus()">-</button>
+                        <button onClick="freetemPlus()">+</button>
+                </div>
+            </div>
+            <div class="koish">
+                <img class="circleImg" src="./img/koish.webp" alt="Koish Img" class="koish__image">
+                <h2>Koish Fishing</h2>
+                <p id="koishCounter">0</p>
+                <div class="koish__buttons">
+                        <button onClick="koishMinus()">-</button>
+                        <button onClick="koishPlus()">+</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="reset-btn" onClick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>GReskin - 2022</p>
+        <div class="footer-links">
+            <a href="https://github.com/GReskin">
+                <img src="./img/github-logo.png" alt="Github logo">
+            </a>
+            <a href="https://www.linkedin.com/in/greskin/">
+                <img src="./img/linkedin-logo.png" alt="Linkedin logo">
+            </a>
+        </div>
+    </footer>
+</body>
+
+<script src="./scripts/counter.js"></script>
+</html>
