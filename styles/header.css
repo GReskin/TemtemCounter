@@ -1,0 +1,13 @@
+@import url('./base.css');
+
+header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--dark-blue);
+}
+
+header h1 {
+    margin-left: 20px;
+}

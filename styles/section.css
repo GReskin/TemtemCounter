@@ -1,0 +1,40 @@
+@import url('./base.css');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height:80vh;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width:100vw;
+}
+
+.counters h2 {
+    margin: 5%;
+    font-size: 1.5rem;
+}
+
+.counters p {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-bottom: 5%
+}
+
+.koish, .freetem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circleImg {
+    width:17vw;
+    border-radius: 50%;
+    border: 15px solid black
+}

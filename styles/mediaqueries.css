@@ -1,0 +1,26 @@
+@import url('./base.css');
+
+@media (max-width: 768px) {
+    .counters{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .freetem__buttons button, .koish__buttons button {
+        width: 30vw;
+        margin:10px   
+    }
+
+    .counters h2 {
+        margin: 2%;
+    }
+
+    .counters p {
+        margin-bottom: 0px;
+    }
+
+    .reset-btn {
+        width: 50vw;
+        height: 6vh;
+    }
+}

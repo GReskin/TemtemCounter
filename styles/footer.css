@@ -1,0 +1,19 @@
+@import url('./base.css');
+
+footer{
+    width: 100%;
+    background-color: var(--dark-blue);
+    text-align: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    color:#f3f5fc;
+    margin-right: 3%;
+}
+.footer-links :first-child{
+    margin-right: 5px;
+}

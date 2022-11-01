@@ -1,0 +1,10 @@
+:root {
+    --light-blue: #6394c9;
+    --dark-blue: #356ea9;
+    --background-color: rgb(181, 187, 197);
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--background-color);
+}
