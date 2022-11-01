@@ -21,14 +21,14 @@ function getCookie(cname) {
     return "";
 }
 
-function initialize () {
+function initialize(){
     if(cookies.getKoish() == ""){
         KoishCounterActual = 0;
         cookies.setKoish()
     } else {
         KoishCounterActual = cookies.getKoish();
     }
-    if(cookies.getFreetem == ""){
+    if(cookies.getFreetem() == ""){
         FreetemCounterActual = 0;
         cookies.setFreetem();
     } else {
