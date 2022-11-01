@@ -1,3 +1,9 @@
+@import url(./buttons.css);
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./section.css);
+@import url(./mediaqueries.css);
+
 :root {
     --light-blue: #6394c9;
     --dark-blue: #356ea9;
