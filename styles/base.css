@@ -1,10 +1,11 @@
 :root {
     --light-blue: #6394c9;
     --dark-blue: #356ea9;
-    --background-color: rgb(181, 187, 197);
+    --white: rgb(181, 187, 197);
+    --font: 'Ubuntu', sans-serif;
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-    background-color: var(--background-color);
+    font-family: var(--font);
+    background-color: var(--white);
 }

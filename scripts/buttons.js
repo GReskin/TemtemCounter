@@ -1,27 +1,27 @@
 function koishPlus (){
     KoishCounterActual++
-    KoishCounterDom.innerHTML = KoishCounterActual;
+    DOM.Koish.innerHTML = KoishCounterActual;
     cookies.setKoish()
 }
 
 function koishMinus (){
     if(KoishCounterActual > 0){
         KoishCounterActual--;
-        KoishCounterDom.innerHTML = KoishCounterActual;
+        DOM.Koish.innerHTML = KoishCounterActual;
         cookies.setKoish()
     }
 }
 
 function freetemPlus (){
     FreetemCounterActual++;
-    FreetemCounterDom.innerHTML = FreetemCounterActual;
+    DOM.Freetem.innerHTML = FreetemCounterActual;
     cookies.setFreetem()
 }
 
 function freetemMinus(){
     if(FreetemCounterActual > 0){
         FreetemCounterActual--;
-        FreetemCounterDom.innerHTML = FreetemCounterActual;
+        DOM.Freetem.innerHTML = FreetemCounterActual;
         cookies.setFreetem()
     }
 }
@@ -29,8 +29,8 @@ function freetemMinus(){
 function reset(){
     FreetemCounterActual = 0;
     KoishCounterActual = 0;
-    FreetemCounterDom.innerHTML = FreetemCounterActual;
-    KoishCounterDom.innerHTML = KoishCounterActual;
+    DOM.Freetem.innerHTML = FreetemCounterActual;
+    DOM.Koish.innerHTML = KoishCounterActual;
     cookies.setKoish()
     cookies.setFreetem()
 }

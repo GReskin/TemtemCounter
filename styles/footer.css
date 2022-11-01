@@ -11,7 +11,7 @@ footer{
     justify-content: center;
 }
 footer p {
-    color:#f3f5fc;
+    color:var(--white);
     margin-right: 3%;
 }
 .footer-links :first-child{
